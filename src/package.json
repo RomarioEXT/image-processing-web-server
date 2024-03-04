@@ -1,0 +1,26 @@
+{
+  "name": "image-processing-web-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js web server for processing images using the image-processing-toolkit package.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RomarioEXT/image-processing-web-serve.git"
+  },
+  "keywords": [
+    "image",
+    "processing",
+    "web",
+    "server"
+  ],
+  "author": "RomarioEXT",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "image-processing-toolkit": "^1.0.0"
+  }
+}
